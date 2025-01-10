@@ -47,6 +47,17 @@
     <script>
         const sidebarEle = document.getElementById("sidebar")
         const menuEle = document.getElementById("menu")
+
+
+        function openSidebar(){
+            sidebarEle.style.visibility ="visible";
+            menuEle.style.visibility = "hidden";
+        }
+        function closeSidebar(){ 
+            sidebarEle.style.visibility ="hidden";   
+            menuEle.style.visibility = "visible";
+        }
+        
     </script>
 </body>
 </html>
